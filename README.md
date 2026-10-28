@@ -77,7 +77,8 @@ flowchart TD
 
 #### Шаг 2. Перейдите в папку проекта в Терминале
 ```bash
-cd gemini_computer_use
+git clone https://github.com/RCKFL/Computer-Use-for-Gemini.git
+cd Computer-Use-for-Gemini/macos
 ```
 
 #### Шаг 3. Проверьте системные разрешения macOS
@@ -118,6 +119,8 @@ python3 run.py
 
 #### Шаг 3. Запуск через командную строку (CMD / PowerShell)
 ```cmd
+git clone https://github.com/RCKFL/Computer-Use-for-Gemini.git
+cd Computer-Use-for-Gemini\windows
 python run.py "Открой Блокнот и напиши список дел: купить молоко, хлеб, сыр"
 ```
 
